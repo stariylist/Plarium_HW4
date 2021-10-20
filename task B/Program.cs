@@ -79,7 +79,7 @@ namespace task_B
 
             //проверяем условием можно ли вписать наш треугольник в окружность радиуса R
             if (R >= triangles[0].Radius()) 
-                Console.WriteLine($"\nПервый треугольник с радиусом = {triangles[0].Radius()} у.е. может быть вписан в окружность c радиусом = {R} у.е!");
+                Console.WriteLine($"\nПервый треугольник с рaдиусом = {triangles[0].Radius()} у.е. может быть вписан в окружность c радиусом = {R} у.е!");
             if (R >= triangles[1].Radius()) 
                 Console.WriteLine($"\nВторой треугольник с радиусом = {triangles[1].Radius()} у.е. может быть вписан в окружность c радиусом = {R} у.е!");
             if (R >= triangles[2].Radius()) 
